@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Webcontrolpanel360/wcp360/main/assets/logo.png" alt="WCP360 Logo" width="200">
   <br>
-  <b>The modern, open-source alternative to cPanel and Plesk.</b>
+  <b>The modern control panel for web hosting, app management, and system control.</b>
   <br>
   <i>Fast, modular, and built for the next generation of web hosting.</i>
 </p>
