@@ -1,47 +1,74 @@
-# WCP360 — Web Control Panel 360
+# 🌐 WCP360 — Web Control Panel 360
 
-**A free, open-source hosting control panel built to replace cPanel and Plesk —
-fast, modular, and fully transparent.**
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Webcontrolpanel360/wcp360/main/assets/logo.png" alt="WCP360 Logo" width="200">
+  <br>
+  <b>The modern, open-source alternative to cPanel and Plesk.</b>
+  <br>
+  <i>Fast, modular, and built for the next generation of web hosting.</i>
+</p>
 
-[Website](https://www.wcp360.com) | [Docs](https://docs.wcp360.com) | [Forum](https://forum.wcp360.com) | [Roadmap](ROADMAP.md) | [Contribute](#contributing)
-
-</div>
-
-Pick an issue labeled [`good first issue`](https://github.com/Webcontrolpanel360/wcp360/labels/good%20first%20issue)
-or [`seeking developer`](https://github.com/Webcontrolpanel360/wcp360/labels/seeking%20developer),
-open a branch named after the feature branch in `ROADMAP.md`, and submit a pull request.
-Read [CONTRIBUTING.md](CONTRIBUTING.md) for coding standards, git workflow, and PR expectations.
-
----
-
-## Overview
-
-WCP360 is a free, open-source hosting control panel designed to replace commercial solutions like cPanel and Plesk. Built with a hybrid stack of Rust (core performance), Python (productivity), and TypeScript (user experience), WCP360 combines the stability of battle-tested server administration with modern software engineering practices.
-
-The panel is fully open-source under GPL-3.0, modular and extensible by design, and memory-efficient thanks to its Rust foundation. Unlike legacy panels that impose rigid architectures, WCP360 allows hosting providers to enable only the features they need, reducing complexity and improving system performance. The codebase is transparent and auditable—no closed-source black boxes, no vendor lock-in.
-
+<p align="center">
+  <img src="https://img.shields.io/github/license/Webcontrolpanel360/wcp360?style=flat-square&color=blue" alt="License">
+  <img src="https://img.shields.io/github/stars/Webcontrolpanel360/wcp360?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/issues/Webcontrolpanel360/wcp360?style=flat-square&color=orange" alt="Issues">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
+</p>
 
 ---
 
-### 🤝 Contributing
+<p align="center">
+  <a href="https://www.wcp360.com">Website</a> • 
+  <a href="https://docs.wcp360.com">Documentation</a> • 
+  <a href="https://forum.wcp360.com">Community Forum</a> • 
+  <a href="ROADMAP.md">Roadmap</a>
+</p>
 
-We love our community! Whether you are fixing a bug, suggesting a feature, or improving documentation, your help is welcome.
+---
+
+## 🚀 The Vision
+
+WCP360 is a free, open-source hosting control panel engineered to liberate sysadmins from expensive, closed-source legacy solutions. By leveraging a high-performance **hybrid stack**, we bridge the gap between low-level stability and high-level developer experience.
+
+### Why WCP360?
+
+* **🦀 Rust Core:** Unmatched memory safety and lightning-fast system operations.
+* **🐍 Python Logic:** Highly readable and maintainable server-side automation.
+* **⚛️ TypeScript UX:** A snappy, modern interface that feels like a desktop app.
+* **🧩 Modular by Design:** Only run what you need. Disable unused services to reclaim RAM.
+* **🔓 No Black Boxes:** Fully transparent GPL-3.0 code. No hidden telemetry or vendor lock-in.
+
+---
+
+## 🛠 Developer Quickstart
+
+We are actively seeking contributors to help shape the future of hosting!
+
+1.  **Find a Task:** Browse issues labeled [**`good first issue`**](https://github.com/Webcontrolpanel360/wcp360/labels/good%20first%20issue) or [**`seeking developer`**](https://github.com/Webcontrolpanel360/wcp360/labels/seeking%20developer).
+2.  **Workflow:** * Fork the repo and create a branch named after the feature listed in the [ROADMAP.md](ROADMAP.md).
+    * Follow our [CONTRIBUTING.md](CONTRIBUTING.md) for coding standards and PR protocols.
+3.  **Submit:** Open a Pull Request against the `develop` branch.
+
+---
+
+## 🤝 Contributing
+
+We love our community! Whether you are fixing a bug, suggesting a feature, or improving documentation, your help is welcome. 
 
 1.  **Fork** the repository.
-2.  **Create** your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  **Push** to the branch (`git push origin feature/AmazingFeature`).
+2.  **Branch:** `git checkout -b feature/AmazingFeature`
+3.  **Commit:** `git commit -m 'feat: add some AmazingFeature'` (We prefer [Conventional Commits](https://www.conventionalcommits.org/))
+4.  **Push:** `git push origin feature/AmazingFeature`
 5.  **Open** a Pull Request.
 
 ---
 
-### 💬 Get in Touch
+## 💬 Connect With Us
 
-* **Website:** [wcp360.io](https://wcp360.com)
-* **Documentation:** [docs.wcp360.io](https://docs.wcp360.com)
-* **Discord:** [Join our community](https://discord.gg/wcp360)
-* **Twitter:** [@WCP360_Official](https://twitter.com/wcp360)
+* **Discord:** [Join the 360° Community](https://discord.gg/wcp360)
+* **Twitter/X:** [@WCP360_Official](https://twitter.com/wcp360)
+* **Email:** support@wcp360.com
 
 ---
 
-> "Managing servers shouldn't be a headache. We provide the 360° view you've always wanted."
+> "Server management shouldn't be a headache. Get the 360° view your infrastructure deserves."
