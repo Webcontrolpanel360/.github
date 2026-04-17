@@ -1,37 +1,25 @@
-# 🌐 Web Control Panel 360 (WCP360)
+# WCP360 — Web Control Panel 360
 
-**Web Control Panel 360** is a modern, lightweight, and high-performance hosting management solution designed for developers, sysadmins, and agency owners. We aim to simplify server management without sacrificing the granular control you need.
+**A free, open-source hosting control panel built to replace cPanel and Plesk —
+fast, modular, and fully transparent.**
 
----
+[Website](https://www.wcp360.com) | [Docs](https://docs.wcp360.com) | [Forum](https://forum.wcp360.com) | [Roadmap](ROADMAP.md) | [Contribute](#contributing)
 
-### 🌟 Key Features
+</div>
 
-* **⚡ High Performance:** Optimized for low resource consumption using a Go/Rust backend and a sleek Vue.js frontend.
-* **🔒 Security First:** Integrated Firewall management, automated SSL (Let's Encrypt), and brute-force protection.
-* **📦 Multi-Stack Support:** Effortlessly manage Nginx, Apache, OpenLiteSpeed, Docker containers, and Node.js environments.
-* **💾 Database Management:** One-click deployment for MySQL, MariaDB, PostgreSQL, and Redis.
-* **📁 File Manager:** Advanced web-based file explorer with code highlighting and terminal access.
-* **📈 Real-time Analytics:** Monitor CPU, RAM, and Disk usage with intuitive 360° visual dashboards.
-
----
-
-### 🛠️ Technology Stack
-
-| Component | Technology |
-| :--- | :--- |
-| **Frontend** | Vue.js 3 / Tailwind CSS |
-| **Backend** | Go (Golang) / Python |
-| **Database** | SQLite (Metadata) / PostgreSQL |
-| **Infrastructure** | Docker, Ansible, Terraform |
+Pick an issue labeled [`good first issue`](https://github.com/Webcontrolpanel360/wcp360/labels/good%20first%20issue)
+or [`seeking developer`](https://github.com/Webcontrolpanel360/wcp360/labels/seeking%20developer),
+open a branch named after the feature branch in `ROADMAP.md`, and submit a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for coding standards, git workflow, and PR expectations.
 
 ---
 
-### 📂 Repository Overview
+## Overview
 
-* **[wcp360-core](https://github.com/wcp360/core):** The heart of the control panel (API & System logic).
-* **[wcp360-ui](https://github.com/wcp360/ui):** The modern dashboard interface.
-* **[wcp360-cli](https://github.com/wcp360/cli):** Command-line tools for server-side automation.
-* **[wcp360-docs](https://github.com/wcp360/docs):** Comprehensive guides and API documentation.
+WCP360 is a free, open-source hosting control panel designed to replace commercial solutions like cPanel and Plesk. Built with a hybrid stack of Rust (core performance), Python (productivity), and TypeScript (user experience), WCP360 combines the stability of battle-tested server administration with modern software engineering practices.
+
+The panel is fully open-source under GPL-3.0, modular and extensible by design, and memory-efficient thanks to its Rust foundation. Unlike legacy panels that impose rigid architectures, WCP360 allows hosting providers to enable only the features they need, reducing complexity and improving system performance. The codebase is transparent and auditable—no closed-source black boxes, no vendor lock-in.
+
 
 ---
 
@@ -49,8 +37,8 @@ We love our community! Whether you are fixing a bug, suggesting a feature, or im
 
 ### 💬 Get in Touch
 
-* **Website:** [wcp360.io](https://wcp360.io)
-* **Documentation:** [docs.wcp360.io](https://docs.wcp360.io)
+* **Website:** [wcp360.io](https://wcp360.com)
+* **Documentation:** [docs.wcp360.io](https://docs.wcp360.com)
 * **Discord:** [Join our community](https://discord.gg/wcp360)
 * **Twitter:** [@WCP360_Official](https://twitter.com/wcp360)
 
