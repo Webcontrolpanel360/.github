@@ -5,7 +5,7 @@
   <br>
   <b>The modern control panel for web hosting, app management, and system control.</b>
   <br>
-  <i>Fast, modular, and built for the next generation of web hosting.</i>
+  <i>Fast • Modular • Built for the next generation of hosting.</i>
 </p>
 
 <p align="center">
@@ -28,35 +28,35 @@
 
 ## 🚀 The Vision
 
-WCP360 is a **free and open-source** hosting control panel designed to replace expensive, closed-source solutions. It offers a clean, performant, and highly modular experience for sysadmins, developers, and hosting providers.
+WCP360 is a **free and open-source** hosting control panel designed to replace expensive, closed-source solutions. It delivers a clean, performant, and highly modular experience for sysadmins, developers, and hosting providers.
 
 ### Why WCP360?
 
-- **🦀 Rust Core** — Unmatched memory safety and lightning-fast system operations  
-- **🐍 Python Logic** — Readable and maintainable server-side automation  
-- **⚛️ TypeScript / Modern UI** — Snappy desktop-like interface with dark/light themes  
-- **🧩 Fully Modular** — Enable only what you need and keep resource usage minimal  
-- **🔓 Truly Open** — GPL-3.0 licensed with no telemetry, no vendor lock-in, full transparency  
+- **🦀 Rust Core** — Unmatched memory safety and lightning-fast system operations (processes, security, low-level tasks)
+- **🐍 Python Logic** — Highly readable and maintainable server-side automation, powered by **PyO3 + Maturin** for seamless Rust-Python integration
+- **⚛️ TypeScript / Modern UI** — Snappy, desktop-like interface with dark/light themes and excellent responsiveness
+- **🧩 Fully Modular** — Enable only what you need. Disable unused services to minimize RAM and CPU usage
+- **🔓 Truly Open** — GPL-3.0 licensed with full transparency. No hidden telemetry, no vendor lock-in
 
 ---
 
 ## 📦 Project Structure
 
-WCP360 is organized as a monorepo-style ecosystem under the **Webcontrolpanel360** organization:
+WCP360 is organized as a clear ecosystem under the **Webcontrolpanel360** GitHub organization:
 
-| Repository                  | Description |
-|----------------------------|-----------|
-| **[wcp360](https://github.com/Webcontrolpanel360/wcp360)** | Main umbrella repository (this one) – documentation, roadmap, and project overview |
-| **[wcp360-core](https://github.com/Webcontrolpanel360/wcp360-core)** | Backend engine (Rust + Python) with  PyO3 + maturin – API, security, modules, and business logic |
+| Repository                        | Description |
+|-----------------------------------|-----------|
+| **[wcp360](https://github.com/Webcontrolpanel360/wcp360)** | Main umbrella repository – project overview, roadmap, and central documentation |
+| **[wcp360-core](https://github.com/Webcontrolpanel360/wcp360-core)** | Backend engine (**Rust + Python** via PyO3) – API, security, modules, and business logic |
 | **[wcp360-ui](https://github.com/Webcontrolpanel360/wcp360-ui)** | Modern responsive frontend (TypeScript/React or similar) |
 | **[wcp360-docs](https://github.com/Webcontrolpanel360/wcp360-docs)** | Official documentation for users and developers |
-| **[wcp360-website](https://github.com/Webcontrolpanel360/wcp360-website)** | Official marketing website and landing page |
-| **[wcp360-cli](https://github.com/Webcontrolpanel360/wcp360-cli)** | Command-line tool to install, manage, update, and deploy WCP360 |
+| **[wcp360.website](https://github.com/Webcontrolpanel360/wcp360.website)** | Official marketing website and landing page |
+| **[wcp360-cli](https://github.com/Webcontrolpanel360/wcp360-cli)** | Command-line tool to install, manage, update, backup, and deploy WCP360 |
 | **[wcp360-plugins](https://github.com/Webcontrolpanel360/wcp360-plugins)** | Plugin system, base templates, and community extensions |
-| **[wcp360-examples](https://github.com/Webcontrolpanel360/wcp360-examples)** | Example configurations, templates, and use cases |
+| **[wcp360-examples](https://github.com/Webcontrolpanel360/wcp360-examples)** | Example configurations, dashboard templates, and use cases |
 | **[wcp360-docker](https://github.com/Webcontrolpanel360/wcp360-docker)** | Official Docker images and Docker Compose setups |
 | **[wcp360-api-client](https://github.com/Webcontrolpanel360/wcp360-api-client)** | Official API clients (JavaScript/TypeScript, Python, etc.) |
-| **[wcp360-theme-default](https://github.com/Webcontrolpanel360/wcp360-theme-default)** | Default theme and styling system (design tokens, CSS variables) |
+| **[wcp360-theme-default](https://github.com/Webcontrolpanel360/wcp360-theme-default)** | Default theme and styling system (design tokens, CSS variables, light/dark support) |
 
 ---
 
@@ -69,13 +69,13 @@ We are actively looking for contributors!
 3. Follow our [CONTRIBUTING.md](CONTRIBUTING.md) and [Conventional Commits](https://www.conventionalcommits.org/)
 4. Open a Pull Request against the `develop` branch
 
-See the full [Developer Guide](https://docs.wcp360.com) for setup instructions.
+See the full [Developer Guide](https://docs.wcp360.com) for detailed setup instructions.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions of all kinds are welcome — code, documentation, design, testing, or just spreading the word.
+Contributions of all kinds are welcome — code, documentation, design, testing, translations, or just spreading the word.
 
 - Fork the repo
 - Create a branch: `git checkout -b feature/amazing-feature`
@@ -83,7 +83,7 @@ Contributions of all kinds are welcome — code, documentation, design, testing,
 - Push to the branch: `git push origin feature/amazing-feature`
 - Open a Pull Request
 
-Please read our [CONTRIBUTING.md](CONTRIBUTING.md) before submitting.
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) before submitting your first PR.
 
 ---
 
