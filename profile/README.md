@@ -47,7 +47,7 @@ WCP360 is organized as a monorepo-style ecosystem under the **Webcontrolpanel360
 | Repository                  | Description |
 |----------------------------|-----------|
 | **[wcp360](https://github.com/Webcontrolpanel360/wcp360)** | Main umbrella repository (this one) – documentation, roadmap, and project overview |
-| **[wcp360-core](https://github.com/Webcontrolpanel360/wcp360-core)** | Backend engine (Rust + Python) – API, security, modules, and business logic |
+| **[wcp360-core](https://github.com/Webcontrolpanel360/wcp360-core)** | Backend engine (Rust + Python) with  PyO3 + maturin – API, security, modules, and business logic |
 | **[wcp360-ui](https://github.com/Webcontrolpanel360/wcp360-ui)** | Modern responsive frontend (TypeScript/React or similar) |
 | **[wcp360-docs](https://github.com/Webcontrolpanel360/wcp360-docs)** | Official documentation for users and developers |
 | **[wcp360-website](https://github.com/Webcontrolpanel360/wcp360-website)** | Official marketing website and landing page |
